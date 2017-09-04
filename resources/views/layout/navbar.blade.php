@@ -18,7 +18,7 @@
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#feature">Actualités</a>
+                    <a class="page-scroll" href="/news">Actualités</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#portfolio">Job Board</a>

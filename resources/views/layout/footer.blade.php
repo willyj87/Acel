@@ -1,43 +1,30 @@
-<section id="feature" class="feature-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="feature">
-                    <i class="fa fa-magic"></i>
-                    <div class="feature-content">
-                        <h4>Web Design</h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+    <footer class="style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <span class="copyright">Copyright &copy; <a href="http://guardiantheme.com">ACEL</a>2017</span>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="footer-social text-center">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
                     </div>
                 </div>
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="feature">
-                    <i class="fa fa-gift"></i>
-                    <div class="feature-content">
-                        <h4>Graphics Design</h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-                    </div>
-                </div>
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="feature">
-                    <i class="fa fa-wordpress"></i>
-                    <div class="feature-content">
-                        <h4>Wordpress Theme</h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
-                    </div>
-                </div>
-            </div><!-- /.col-md-3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-                <div class="feature">
-                    <i class="fa fa-plug"></i>
-                    <div class="feature-content">
-                        <h4>Wordpress Plugin</h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+                <div class="col-md-4 col-xs-12">
+                    <div class="footer-link">
+                        <ul class="pull-right">
+                            <li><a href="#">Vie privée</a>
+                            </li>
+                            <li><a href="#">Conditions générales d'utilisation</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div><!-- /.row -->
-
-    </div><!-- /.container -->
-</section>
+        </div>
+    </footer>

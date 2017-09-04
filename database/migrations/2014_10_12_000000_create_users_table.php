@@ -19,11 +19,15 @@ class CreateUsersTable extends Migration
             $table->string('surname');
             $table->string('email')->unique();
             $table->string('telephone');
-            $table->boolean('admin');
-            $table->boolean('paid');
+            $table->boolean('admin')->default(false);
+            $table->boolean('paid')->default(false);
             $table->boolean('activated');
             $table->string('sessId')->nullable()->default(null);
             $table->string('password');
+            $table->string('town');
+            $table->string('country');
+            $table->string('town_code')->nulllable();
+            $table->string('address');
             $table->rememberToken();
             $table->timestamps();
         });

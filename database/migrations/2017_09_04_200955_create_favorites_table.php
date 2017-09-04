@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateOffersTable extends Migration
+class CreateFavoritesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,10 @@ class CreateOffersTable extends Migration
      */
     public function up()
     {
-        Schema::create('offers', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('title');
-            $table->text('description');
-            $table->longText('text');
-            $table->string('location');
+        Schema::create('favorites', function (Blueprint $table) {
             $table->integer('type');
-            $table->string('file')->nullable();
-            $table->string('link')->nullable();
+            $table->integer('element_id');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
@@ -33,6 +28,6 @@ class CreateOffersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('offers');
+        Schema::dropIfExists('favorites');
     }
 }
