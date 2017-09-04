@@ -18,7 +18,7 @@ class CreateLearningsTable extends Migration
             $table->string('title');
             $table->string('file')->nullable();
             $table->text('description');
-            $table->longText('texte');
+            $table->longText('text');
             $table->string('link')->nullable();
             $table->integer('category_id');
             $table->integer('type');

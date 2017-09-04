@@ -17,8 +17,8 @@ class CreateOffersTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->text('description');
-            $table->longText('texte');
-            $table->string('lieu');
+            $table->longText('text');
+            $table->string('location');
             $table->integer('type');
             $table->string('file')->nullable();
             $table->string('link')->nullable();
