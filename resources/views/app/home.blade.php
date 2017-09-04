@@ -22,10 +22,10 @@
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
                             <h1 class="animated3">
-                                <span><strong>Fame</strong> for the highest</span>
+                                <span><strong>ACEL</strong></span>
                             </h1>
-                            <p class="animated2">At vero eos et accusamus et iusto odio dignissimos<br> ducimus qui blanditiis praesentium voluptatum</p>
-                            <a href="#feature" class="page-scroll btn btn-primary animated1">Read More</a>
+                            <p class="animated2"><strong>A</strong>ssociation <strong>C</strong>amerounaise <strong>D</strong>es <strong>E</strong>tudiants <strong>D</strong>e Limoges</p>
+                            <a href="#feature" class="page-scroll btn btn-primary animated1">En savoir plus</a>
                         </div>
                     </div>
                 </div>
@@ -37,10 +37,10 @@
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
                             <h1 class="animated1">
-                                <span>Welcome to <strong>Fame</strong></span>
+                                <span>Bienvenue sur <strong>L'ACEL</strong></span>
                             </h1>
-                            <p class="animated2">Generate a flood of new business with the<br> power of a digital media platform</p>
-                            <a href="#feature" class="page-scroll btn btn-primary animated3">Read More</a>
+                            <p class="animated2">Mettez toutes les chances de votre côté pour réussir votre intégration</p>
+                            <a href="#feature" class="page-scroll btn btn-primary animated3">En savoir plus</a>
                         </div>
                     </div>
                 </div>
@@ -51,11 +51,10 @@
                     <div class="slider-content">
                         <div class="col-md-12 text-center">
                             <h1 class="animated2">
-                                <span>The way of <strong>Success</strong></span>
+                                <span>La voie du <strong>Succès</strong></span>
                             </h1>
-                            <p class="animated1">At vero eos et accusamus et iusto odio dignissimos<br> ducimus qui blanditiis praesentium voluptatum</p>
-                            <a class="animated3 slider btn btn-primary btn-min-block" href="#">Get Now</a><a class="animated3 slider btn btn-default btn-min-block" href="#">Live Demo</a>
-
+                            <p class="animated1">L'ACEL vous acceuille à bras ouverts<br>Grâce à nous vous étudierez en toute sérénité</p>
+                            <a class="animated3 slider btn btn-primary btn-min-block" href="#">Rejoignez-nous</a>
                         </div>
                     </div>
                 </div>
