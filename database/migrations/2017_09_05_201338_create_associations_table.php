@@ -24,6 +24,7 @@ class CreateAssociationsTable extends Migration
             $table->boolean('activated')->default(null);
             $table->string('telephone');
             $table->string('logo')->nullable();
+            $table->string('short_name')->nullable();
             $table->string('email')->unique();
             $table->timestamps();
         });

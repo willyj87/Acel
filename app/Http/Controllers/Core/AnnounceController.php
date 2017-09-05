@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Core;
 
-use App\Offer;
+use App\Announce;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class OfferController extends Controller
+
+class AnnounceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +43,10 @@ class OfferController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Offer  $offer
+     * @param  \App\Announce  $announce
      * @return \Illuminate\Http\Response
      */
-    public function show(Offer $offer)
+    public function show(Announce $announce)
     {
         //
     }
@@ -52,10 +54,10 @@ class OfferController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Offer  $offer
+     * @param  \App\Announce  $announce
      * @return \Illuminate\Http\Response
      */
-    public function edit(Offer $offer)
+    public function edit(Announce $announce)
     {
         //
     }
@@ -64,10 +66,10 @@ class OfferController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Offer  $offer
+     * @param  \App\Announce  $announce
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Offer $offer)
+    public function update(Request $request, Announce $announce)
     {
         //
     }
@@ -75,10 +77,10 @@ class OfferController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Offer  $offer
+     * @param  \App\Announce  $announce
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Offer $offer)
+    public function destroy(Announce $announce)
     {
         //
     }

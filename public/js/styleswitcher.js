@@ -65,7 +65,7 @@ function readCookie(name) {
   }
   return null;
 }
-
+//Choix de couleur de l'application
 window.onload = function(e) {
   setActiveStyleSheet('light-red');
 };

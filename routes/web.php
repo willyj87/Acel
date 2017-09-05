@@ -16,4 +16,29 @@ Route::get('/', function () {
 });
 
 /** NewsController */
-Route::get('/news','NewsController@index')->name('newsAccueil');
+Route::get('/news','Core\NewsController@index')->name('newsWelcome');
+
+
+
+
+
+/** LearningController*/
+Route::get('/learns','Core\LearningController@index')->name('learnWelcome');
+
+
+
+
+
+/** OfferController*/
+Route::get('/offers','Core\OfferController@index')->name('offerWelcome');
+
+
+
+/** GalleryController*/
+Route::get('/gallery','Core\GalleryController@index')->name('galleryWelcome');
+
+
+
+
+/** UserController*/
+Route::get('/users','Core\UsersController@index')->name('welcome');
