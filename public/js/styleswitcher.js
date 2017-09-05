@@ -67,10 +67,8 @@ function readCookie(name) {
 }
 
 window.onload = function(e) {
-  var cookie = readCookie("style");
-  var title = cookie ? cookie : getPreferredStyleSheet();
-  setActiveStyleSheet(title);
-}
+  setActiveStyleSheet('light-red');
+};
 
 window.onunload = function(e) {
   var title = getActiveStyleSheet();
@@ -80,4 +78,6 @@ window.onunload = function(e) {
 var cookie = readCookie("style");
 var title = cookie ? cookie : getPreferredStyleSheet();
 setActiveStyleSheet(title);
+
+
 

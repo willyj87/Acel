@@ -75,7 +75,6 @@
         <li><a title="Yellow" class="yellow" onClick="setActiveStyleSheet('yellow'); return false;"></a></li>
 
     </ul>
-
 </div>
 <!-- Styleswitcher End
 ================================================== -->
