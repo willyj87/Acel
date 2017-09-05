@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('app/home');
 });
 
-/** News Controller */
+/** NewsController */
 Route::get('/news','NewsController@index')->name('newsAccueil');
